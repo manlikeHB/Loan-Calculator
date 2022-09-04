@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vh; */
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+}
+
+.sub-container {
+    /* display: flex; */
+    width: 600px;
+    height: 550px;
+    padding: 20px;
+    /* background-color: grey; */
+    margin: auto;
+    
+    /* margin-top: 40px; */
+    /* font-size: 40px; */
+    
+}
+
+.bg-color {
+     background-color: rgb(240, 239, 239);
+}
+.first-b {
+    border: 1px solid rgb(180, 179, 179);
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.second-b {
+    border: 1px solid rgb(180, 179, 179);
+    border-top: none;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.calculate {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 0;
+    /* border: 1px solid rgb(180, 179, 179); */
+}
+
+.calculate h1 {
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.amount {
+    display: flex;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.amount p {
+    border: 1px solid rgb(180, 179, 179);
+    padding: 13px;
+    border-right: none;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid rgb(180, 179, 179);
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.percent {
+    display: flex;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.percent p {
+    border: 1px solid rgb(180, 179, 179);
+    padding: 10px;
+    border-right: none;
+}
+
+.yrs {
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(180, 179, 179);
+    /* border-radius: 5px; */
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.btn {
+    height: 50px;
+    border: 1px solid rgb(180, 179, 179);
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    color: rgb(230, 228, 228);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.results {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 20px;
+    /* display: none; */
+    /* border: 1px solid rgb(180, 179, 179); */
+}
+
+.results h3 {
+    font-size: 30px;
+    align-self: center;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.payment {
+    display: flex;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.results p {
+    border: 1px solid rgb(180, 179, 179);
+    padding: 10px;
+    border-right: none;
+}
+
+.r-input {
+    /* width: 100%; */
+    border: 1px solid rgb(180, 179, 179);
+    font-size: 20px;
+    flex-grow: 1;
+    padding-left: 5px;
+}
+
+input:focus, input:hover {
+    outline: none;
+    border: 1px solid aquamarine;
+}
+
+.loading {
+    display: none;
+    height: 199.41px;
+    width: 517.03px;
+}
+
